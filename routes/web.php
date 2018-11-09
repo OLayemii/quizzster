@@ -26,6 +26,10 @@ Route::prefix('pages')->group(function(){
     Route::post('profile', 'PagesController@updateprofile')->name('updateprofile');
 });
 
-Route::prefix("pages/admin")->middleware(['is_admin'])->group(function(){
+Route::prefix("admin")->middleware(['is_admin'])->group(function(){
     Route::get('index', 'AdminController@index')->name('adminindex');
 });
+
+
+Route::resource('admin/quiz', 'ManageQuizController')->middleware(['is_admin']);
+Route::resource('admin/users', 'UsersController')->middleware(['is_admin']);

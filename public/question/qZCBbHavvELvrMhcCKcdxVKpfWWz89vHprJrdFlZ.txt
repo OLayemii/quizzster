@@ -1,0 +1,3 @@
+question,opta,optb,optc,optd,optcorrect
+what is my name,olayemii,teegar,felly,savitar,a
+"who are the first, second and third","1,2,3","3,5,4","12,4,5","22,22,22","22,22,22"

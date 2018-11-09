@@ -17,5 +17,6 @@ mix.js(['resources/js/app.js'], 'public/js')
    .styles([
     'node_modules/bootstrap/dist/css/bootstrap.min.css',
     'public/css/style.css',
-    'public/css/bootstrap-social.css'
+    'public/css/bootstrap-social.css',
+    'public/css/datatables.min.css'
 ], 'public/css/all.css');;

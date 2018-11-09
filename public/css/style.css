@@ -13,6 +13,12 @@ body {
     height: 100%;
 }
 
+div.container{
+    width: 100%;
+}
+.dataTables_wrapper .row:nth-child(2){
+    text-align: right;
+}
 .navbar-quizzster{
     background: #fff;
     box-shadow: 1px 1px 1px gray;
@@ -59,10 +65,11 @@ body {
 
 .list-child{
     background: #2c3b41;
+    padding: 0;
 }
 .list-child li{
-    display: list-item;
-    list-style-type: circle !important;
+    display: block;
+    padding: 0;
 }
 .nav-item i{
    color: transparent;
